@@ -1,6 +1,6 @@
 FROM yashk7/tortoolkitbase
 RUN apt-get install --reinstall coreutils
-RUN git clone -b beta https://github.com/holoowah/TorToolkit-Telegram.git && \ /bin/mv  TorToolkit-Telegram /
+RUN git clone -b beta https://github.com/holoowah/TorToolkit-Telegram.git && \mv  TorToolkit-Telegram /
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
