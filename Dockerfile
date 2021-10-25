@@ -4,8 +4,7 @@ RUN cd TorToolkit-Telegram
 RUN pip3 install --no-cache-dir -r TorToolkit-Telegram/requirements.txt
 
 COPY . .
-RUN cd TorToolkit-Telegram
-RUN chmod 777 alive.sh
+RUN chmod 777 TorToolkit-Telegram/alive.sh
 RUN chmod 777 start.sh
 
 #RUN useradd -ms /bin/bash  myuser
