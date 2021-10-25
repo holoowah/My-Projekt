@@ -1,4 +1,4 @@
-"FROM yashk7/tortoolkitbase
+FROM yashk7/tortoolkitbase
 RUN git https://github.com/holoowah/TorToolkit-Telegram.git
 RUN cd TorToolkit-Telegram
 COPY requirements.txt .
@@ -13,4 +13,3 @@ RUN chmod 777 start.sh
 #USER myuser
 
 CMD ./start.sh"
- https://github.com/holoowah/TorToolkit-Telegram/blob/beta/Dockerfile#:~:text=FROM%20yashk7/tortoolkitbase,CMD%20./start.sh
