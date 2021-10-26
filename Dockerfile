@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN git clone -b master https://github.com/holoowah/TorToolkit-Telegram.git /torapp
+RUN apt-get install git && git clone -b master https://github.com/holoowah/TorToolkit-Telegram.git /torapp
 
 WORKDIR /torapp
 
