@@ -1,5 +1,5 @@
 FROM yashk7/tortoolkitbase
-RUN git clone -b master https://github.com/holoowah/TorToolkit-Telegram.git /app
+RUN git clone -b master https://github.com/holoowah/TorToolkit-Telegram.git /torapp
 WORKDIR /torapp
 RUN pip3 install --no-cache-dir -r requirements.txt
 
